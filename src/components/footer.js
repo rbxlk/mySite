@@ -1,13 +1,14 @@
 import React from "react"
 import PropTypes from "prop-types"
+import Container from "react-bootstrap/Container"
 
 
 const Footer = ({ siteAuthor }) => (
-    <footer>
+    <Container fluid>
         © {new Date().getFullYear()}, Built with
         {` `}
             <a href="https://www.gatsbyjs.org">Gatsby</a> by {siteAuthor}.
-    </footer>
+    </Container>
 )
 
 Footer.propTypes = {
