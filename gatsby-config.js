@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `rbxlk`,
+    title: `rbxlk - Frontend Developer`,
     description: `Welcome to my personal website created using React and Gatsby, I hope you enjoy your stay.`,
     author: `@rbxlk`,
   },
