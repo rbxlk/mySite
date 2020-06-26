@@ -27,13 +27,13 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <React.Fragment>
       <Header siteTitle={data.site.siteMetadata.title} />
         <Container fluid>
             <main>{children}</main>
         </Container>
-      <Footer siteAuthor={data.site.siteMetadata.author}/>
-    </>
+      <Footer siteAuthor={data.site.siteMetadata.author} />
+    </React.Fragment>
   )
 }
 
